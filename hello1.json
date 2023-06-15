@@ -1,0 +1,53 @@
+{
+  "report": [
+    {
+      "name": "获取广告组信息CampaignGet",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115407",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656071&case_id=11115407",
+      "status": "成功"
+    },
+    {
+      "name": "GetConvertTarget获取转化目标",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115380",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656072&case_id=11115380",
+      "status": "成功"
+    },
+    {
+      "name": "GetOptimizeTarget",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115714",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656073&case_id=11115714",
+      "status": "成功"
+    },
+    {
+      "name": "GetDeepBidType",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115713",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656074&case_id=11115713",
+      "status": "成功"
+    },
+    {
+      "name": "GetBaseContext",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115716",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656075&case_id=11115716",
+      "status": "成功"
+    },
+    {
+      "name": "获取创意信息CreativeGetByAdId",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11115409",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656076&case_id=11115409",
+      "status": "成功"
+    },
+    {
+      "name": "PreCheck",
+      "name_url": "https://bytediff.bytedance.net/scenes?id=11117919",
+      "report_name": "具体报告",
+      "report_name_url": "https://bytediff.bytedance.net/report?task_id=5656077&case_id=11117919",
+      "status": "成功"
+    }
+  ]
+}

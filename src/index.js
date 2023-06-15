@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
+// import App from "./01-base/01-class组件"
+// import App from "./01-base/02-function组件"
+// import App from "./01-base/03-组件嵌套"
+// import App from "./01-base/04-组件样式"
+// import App from "./01-base/05-事件绑定-1"
+// import App from "./01-base/06-事件绑定-2"
+// import App from "./01-base/07-ref"
+// import App from "./01-base/08-state"
+// import App from "./01-base/09-循环渲染"
+// import App from "./01-base/10-todolist"
+// import App from "./01-base/11-卖座选项卡"
+// import App from "./01-base/12-setState同步异步"
+// import App from "./01-base/13.betterScroll"
+// import App from "./01-base/14-betterScroll-cinema"
+// import App from "./01-base/15-props"
+// import App from "./01-base/16-props函数式组件"
+// import App from "./01-base/17-状态vs属性"
+import App from "./01-base/18-非受控"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App/>, document.getElementById("root"))
