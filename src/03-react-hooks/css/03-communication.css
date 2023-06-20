@@ -1,0 +1,20 @@
+.filmItem {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.filmItem img {
+    width: 100px;
+    float: left;
+}
+
+.filmDetail div {
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    background: yellow;
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+
