@@ -52,6 +52,7 @@ import ReactDOM from "react-dom"
 // import App from "./03-react-hooks/11-useRef-保存值"
 // import App from "./03-react-hooks/12-useContext"
 // import App from "./03-react-hooks/13-useReducer1"
-import App from "./03-react-hooks/14-useReducer2"
+// import App from "./03-react-hooks/14-useReducer2"
+import App from "./04-router/App"
 
 ReactDOM.render(<App/>, document.getElementById("root"))
