@@ -1,9 +1,14 @@
 import React, {useEffect} from 'react';
+import store from "../mobx/store";
 
 export default function Detail(props) {
     useEffect(() => {
         console.log("create")
+        // store.isTabbarShow = false
+        store.changeHide()
         return () => {
+            // store.isTabbarShow = true
+            store.changeShow()
             console.log("destroy")
         }
     }, [])

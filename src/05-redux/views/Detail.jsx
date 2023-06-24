@@ -1,10 +1,12 @@
 import React, {useEffect} from 'react';
+import store from "../redux/store";
+import {show, hide} from "../redux/actionCreator/TabbarActionCreator"
 
 export default function Detail(props) {
     useEffect(() => {
-        console.log("create")
+        store.dispatch(show())
         return () => {
-            console.log("destroy")
+            store.dispatch(hide())
         }
     }, [])
     return (

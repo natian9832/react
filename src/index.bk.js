@@ -61,13 +61,15 @@ import ReactDOM from "react-dom"
 // import App from "./07-antd/03-layout"
 // import App from "./07-antd/04-下拉菜单"
 // import App from "./07-antd/05-步骤条"
-// import App from "./08-antd-mobile/App"
-// import App from "./09-immutable/01-base"
-// import App from "./09-immutable/02-map"
-// import App from "./10-mobx/App"
-import App from "./10-mobx/04-router/App"
-
+import App from "./08-antd-mobile/App"
+import {Provider} from "react-redux";
+import {PersistGate} from "redux-persist/integration/react";
+import {store, persistor} from "./08-antd-mobile/redux/store"
 
 ReactDOM.render(
-    <App/>,
+    <Provider store={store}>
+        <PersistGate loadin={null} persistor={persistor}>
+            <App/>
+        </PersistGate>
+    </Provider>,
     document.getElementById("root"))
